@@ -1,0 +1,36 @@
+Design
+---------
+1)product -Vehicle
+	properties
+		=>Engine
+		=>Wheels
+		=>Seats
+		=>VehicleType
+		-------->it should have the setters only.
+2)VehicleBuilder --->interface
+		=>setEngine(String engine);
+		=>setWheels(int wheels);
+		=>setSeats(int seats);
+		=>setVehicleType(String vehicleType);
+
+				=>here each builder should implement the Vehicle Builder.
+					=>CarBuilder return Vehicle Named car.
+						=>it will contain the method overrided from the VehicleBuilder.
+						=>every over rided method should return this Builder.
+						=>finally we have build method which will return the build object.
+						 here it is returning expected object so we have to intiate the
+						 object in noArgs Constructor.(think if we pass no args constructor
+						  how we can initiate the object)
+					=>BikeBuilder return Vehicle Named Bike.
+					=>LorryBuilder Vehicle Named Lorry.
+
+3)Director
+	=>it having method named construct(can give the any name) which will construct the object.
+
+
+4)Client code
+		=>here we will create the new object of Director which having constructor can allow only one argument which is Builder.
+		=>so before creating Director object we should create the BuilderObject.
+		=>then we by using director object we can call the construct method over
+		there then we can build the vehichle based on the
+		builder we provided.

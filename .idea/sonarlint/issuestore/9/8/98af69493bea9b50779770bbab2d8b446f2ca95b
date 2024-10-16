@@ -1,0 +1,5 @@
+
+Á
+java:S1130	"yRemove the declaration of thrown exception 'java.lang.IllegalAccessException', as it cannot be thrown from method's body.(Î®¹Óüÿÿÿÿ8Å¶í¶©2J$083aba3e-852b-4499-a12e-e05cec4b4541
+
+java:S1128"ERemove this unused import 'javax.xml.parsers.DocumentBuilderFactory'.(»·±Ñüÿÿÿÿ8ÅÙõ¶©2J$ae41454c-c117-4d8b-8a0b-d6844d0aa70f
