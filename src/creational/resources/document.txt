@@ -1,0 +1,31 @@
+https://www.udemy.com/course/low-level-system-design/learn/lecture/46322643#overview
+
+SRP-single Responsiblity Principle
+OCP-Open Closed Principle
+
+
+
+
+SRP -Single Responsiblity Principle
+-------------------------------------
+A class should have the single responsiblity
+lets say if we have the User class its purpose is to creating the user then it should not sending the notification.
+
+right
+User{
+name;
+email;
+
+//getter setter
+}
+
+wrong
+User{
+email;
+name;
+sendEmail();
+}
+
+
+Open close Principle:
+class should be opened and it should be closed.
