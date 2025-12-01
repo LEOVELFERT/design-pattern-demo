@@ -1,7 +1,9 @@
-package creational.observer.impl;
+package behavioural.observer.impl;
 
-import observer.Observer;
-import observer.Subject;
+
+
+import behavioural.observer.Observer;
+import behavioural.observer.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

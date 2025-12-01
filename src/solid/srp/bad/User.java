@@ -1,4 +1,4 @@
-package creational.srp.bad;
+package solid.srp.bad;
 
 public class User {
     private String name;

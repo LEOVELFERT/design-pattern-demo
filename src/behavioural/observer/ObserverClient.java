@@ -1,7 +1,8 @@
-package creational.observer;
+package behavioural.observer;
 
-import observer.impl.MobileDevice;
-import observer.impl.WeatherStation;
+
+import behavioural.observer.impl.MobileDevice;
+import behavioural.observer.impl.WeatherStation;
 
 public class ObserverClient {
     public static void main(String[] args) {

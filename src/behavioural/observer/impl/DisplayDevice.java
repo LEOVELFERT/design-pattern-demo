@@ -1,6 +1,7 @@
-package creational.observer.impl;
+package behavioural.observer.impl;
 
-import observer.Observer;
+
+import behavioural.observer.Observer;
 
 public class DisplayDevice implements Observer {
     @Override
